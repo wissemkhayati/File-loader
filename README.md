@@ -1,10 +1,9 @@
 # Sample file downloader
 
-Make downloading and displaying files through Unity3D apps easy, clean and useful.
+Make downloading and displaying images and video through Unity3D apps easy, clean and useful.
 
 The project has two classes.
-
-* [Test.cs](https://github.com/wissemkhayati/File-loader/blob/master/Assets/Scripts/Test.cs) - Used to test functionalities.
+* [Test.cs](https://github.com/wissemkhayati/File-loader/blob/master/Assets/Scripts/Test.cs) - Used to call functionalities.
 * [FileLoader.cs](https://github.com/wissemkhayati/File-loader/blob/master/Assets/Scripts/FileLoader.cs) - Has two functions.
 
 
