@@ -10,16 +10,20 @@ The project has two classes.
 * [FileLoader.cs](https://github.com/wissemkhayati/File-loader/blob/master/Assets/Scripts/FileLoader.cs) - Has two functions.
 
 
+
+
 ## Class loader
 
-### Function LoadImage()
+#### Function LoadImage()
 
 Through this method the UnityWebRequestTexture Class is used to download an image and convert it to a Texture.
 
 
-### Function LoadVideo()
+#### Function LoadVideo()
 
 For downloading the data of video which is array of bytes the UnityWebRequest Class is used.
+
+
 
 
 ## Running the tests
