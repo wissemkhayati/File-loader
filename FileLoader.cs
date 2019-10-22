@@ -1,12 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+using System.Collections;
 using UnityEngine;
-using UnityEngine.UI;
 using System.IO;
 using UnityEngine.Networking;
-using UnityEngine.Video;
-
-
 
 
 public class FileLoader : MonoBehaviour
