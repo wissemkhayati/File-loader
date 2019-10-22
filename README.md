@@ -27,14 +27,14 @@ Instantiate an object of FileLoader then call its method.
 Firt example downloading an image from external url.
 
 ```
-FileLoader loader1 = new FileLoader("downloadedImage", "http://vps587231.ovh.net/static/cocacola.png");
+FileLoader loader1 = new FileLoader("downloadedImage", "url image");
 yield return StartCoroutine(loader1.LoadImage());
 image.texture = loader1.Source_texture;
 ```
 Second example downloading a video from external url.
 
 ```
-FileLoader loader2 = new FileLoader("downloadedVideo","http://vps587231.ovh.net/static/TVPub/Stories/cocacola1.mp4");
+FileLoader loader2 = new FileLoader("downloadedVideo","url video");
 yield return StartCoroutine(loader2.LoadVideo());
 video.url = loader2.Source_video;
 ```
