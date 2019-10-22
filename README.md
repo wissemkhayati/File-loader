@@ -10,9 +10,7 @@ The project has two classes.
 * [FileLoader.cs](https://github.com/wissemkhayati/File-loader/blob/master/Assets/Scripts/FileLoader.cs) - Has two functions.
 
 
-
-
-## Class loader
+## Class FileLoader
 
 #### Function LoadImage()
 
@@ -24,16 +22,21 @@ Through this method the UnityWebRequestTexture Class is used to download an imag
 For downloading the data of video which is array of bytes the UnityWebRequest Class is used.
 
 
-
-
 ## Running the tests
 
 Instantiate an object of FileLoader then call its method.
 
-For example downloading an image from external url.
+Firt example downloading an image from external url.
 
 ```
 FileLoader loader1 = new FileLoader("downloadedImage", "http://vps587231.ovh.net/static/cocacola.png");
 yield return StartCoroutine(loader1.LoadImage());
 image.texture = loader1.Source_texture;
+```
+Second example downloading a video from external url.
+
+```
+FileLoader loader2 = new FileLoader("downloadedVideo","http://vps587231.ovh.net/static/TVPub/Stories/cocacola1.mp4");
+yield return StartCoroutine(loader2.LoadVideo());
+video.url = loader2.Source_video;
 ```
