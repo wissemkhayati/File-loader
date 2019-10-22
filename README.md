@@ -2,15 +2,13 @@
 
 Make downloading and displaying files through Unity3D apps easy, clean and useful.
 
-## Getting Started
-
 The project has two classes.
 
 * [Test.cs](https://github.com/wissemkhayati/File-loader/blob/master/Assets/Scripts/Test.cs) - Used to test functionalities.
 * [FileLoader.cs](https://github.com/wissemkhayati/File-loader/blob/master/Assets/Scripts/FileLoader.cs) - Has two functions.
 
 
-## Class FileLoader
+### Class FileLoader
 
 #### Function LoadImage()
 
@@ -22,7 +20,7 @@ Through this method the UnityWebRequestTexture Class is used to download an imag
 For downloading the data of video which is array of bytes the UnityWebRequest Class is used.
 
 
-## Running the tests
+## Examples
 
 Instantiate an object of FileLoader then call its method.
 
